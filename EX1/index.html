@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container{ 
+            height: 100vh; 
+            display: flex;
+            flex-direction: column;
+        }
+        nav { 
+            display: flex;
+            flex-grow: 0;
+            background-color: yellow;
+        }
+        header {
+            display: flex;
+            flex-grow: 0;
+            background-color: lightgreen;
+        }
+        main {
+            display: flex;
+            flex-grow: 1;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>nav</nav>
+        <header>header</header>
+        <main>content</main>
+    </div>
+</body>
+</html>
